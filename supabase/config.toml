@@ -61,19 +61,19 @@ enable_confirmations = false
 # Use an external OAuth provider. The full list of providers are: `apple`, `azure`, `bitbucket`,
 # `discord`, `facebook`, `github`, `gitlab`, `google`, `keycloak`, `linkedin`, `notion`, `twitch`,
 # `twitter`, `slack`, `spotify`, `workos`, `zoom`.
-[auth.external.twitter]
-enabled = false
-client_id = ""
-secret = ""
+[auth.external.discord]
+enabled = true
+client_id = "1108629005575401482"
+secret = "c04142d16dc961fa8359d78d15df671d1571a02982567ef450e6030070f33ca7"
 # Overrides the default auth redirectUrl.
 redirect_uri = "http://localhost:54321/auth/v1/callback"
 # Overrides the default auth provider URL. Used to support self-hosted gitlab, single-tenant Azure,
 # or any other third-party OIDC providers.
 url = ""
 [auth.external.github]
-enabled = true
-client_id = ""
-secret = ""
+enabled = false
+client_id = "1c10acf0cb8c367c569b"
+secret = "d7a9350ae4672035fcbeafa058ec103b6ca8a120"
 # Overrides the default auth redirectUrl.
 redirect_uri = "http://localhost:54321/auth/v1/callback"
 # Overrides the default auth provider URL. Used to support self-hosted gitlab, single-tenant Azure,
